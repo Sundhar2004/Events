@@ -14,8 +14,8 @@ class HomeActivity : AppCompatActivity() {
         homeBinding = ActivityHomeBinding.inflate(layoutInflater)
         setContentView(homeBinding.root)
 
-        homeBinding.imgBack.setOnClickListener {
-            finish()
+        homeBinding.fabAddNotes.setOnClickListener {
+            startActivity(Intent(this,AddNotesActivity::class.java))
         }
     }
 }
