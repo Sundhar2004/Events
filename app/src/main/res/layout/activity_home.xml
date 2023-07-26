@@ -13,8 +13,6 @@
             android:padding="2dp"
             app:queryHint="Search your notes"
             android:layout_margin="2dp"
-            android:outlineSpotShadowColor="@color/design_default_color_on_primary"
-            android:outlineAmbientShadowColor="@color/design_default_color_on_primary"
             app:iconifiedByDefault="false"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         binding.splashImg.alpha = 0f
-        binding.splashImg.animate().setDuration(2000).alpha(1f).withEndAction{
+        binding.splashImg.animate().setDuration(1500).alpha(1f).withEndAction{
             startActivity(Intent(this,HomeActivity::class.java))
             overridePendingTransition(android.R.anim.fade_in,android.R.anim.fade_out)
             finish()

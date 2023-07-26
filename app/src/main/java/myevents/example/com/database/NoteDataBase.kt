@@ -18,9 +18,7 @@ abstract class NoteDataBase: RoomDatabase() {
         fun getDataBase(context: Context): NoteDataBase{
             return INSTANCE ?: synchronized(this){
                 val instance = Room.databaseBuilder(
-                    context.applicationContext,
-                    NoteDataBase::class.java,
-                    DATABASE_NAME
+                    context.applicationContext, NoteDataBase::class.java, DATABASE_NAME
                 ).build()
                 INSTANCE = instance
                 instance

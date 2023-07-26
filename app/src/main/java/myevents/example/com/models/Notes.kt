@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 
 
 /** create table name(Entity) - column **/
-@Entity("notes_table")
+@Entity("events_table")
 data class Notes(
     @PrimaryKey(autoGenerate = true) val id: Int?,
     @ColumnInfo(name = "title") val title: String?,

@@ -5,4 +5,14 @@
     <color name="grey">#7E7878</color>
     <color name="yellow">#FFC107</color>
     <color name="blue">#2196F3</color>
+
+    <!--random color for card view -->
+    <color name="orange1">#F44336</color>
+    <color name="blue1">#2196F3</color>
+    <color name="pink1">#E91E63</color>
+    <color name="green1">#009688</color>
+    <color name="white1">#FFFFFF</color>
+    <color name="brown1">#8E2808</color>
+    <color name="yellow1">#FFEB3B</color>
+
 </resources>
